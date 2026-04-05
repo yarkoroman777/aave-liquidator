@@ -1,0 +1,9 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+remappings = [
+    "@aave/aave-v3-core/=lib/aave-v3-core/",
+    "@openzeppelin/=lib/openzeppelin-contracts/",
+    "@uniswap/v3-periphery/=lib/v3-periphery/"
+]
